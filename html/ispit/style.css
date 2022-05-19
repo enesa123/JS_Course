@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+/* pocetak hedera */
+header{
+ background-color: rgb(0 128 0 / 20%);
+}
+h1{
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    border: solid 2px;
+    border-radius: 5%;
+    height: 30px;
+    border-color: white;
+    margin-top: 20px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    border: solid 2px;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    background-color: darkolivegreen;
+    border-color: darkolivegreen;
+    width: 50%;
+    text-align: center;
+}
+/* kraj hedera */
+/* pocetak zaglavlja 1 */
+.prviSection{
+    background-image: linear-gradient(darkolivegreen,rgb(0 128 0 / 20%));
+   
+}
+img{
+    height: 300px;
+    width: 100%;
+    border-radius: 5%;
+}
+.first, .second{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* kraj zaglavlja 1 */
+/* pocetak zaglavlja 2 */
+.drugiSection{
+    background-image: linear-gradient(darkolivegreen,rgb(0 128 0 / 20%));  
+}
+h1{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.slike{
+    display: grid;
+    grid-template-columns: 165px 165px;
+    gap: 27px;
+}
+.slike > img{
+    display: grid;
+    grid-template-columns: 165px 165px;
+    gap: 27px;
+}
+footer{
+    background-color: rgb(0 128 0 / 20%);
+    height: 10vh;
+    display: flex;
+
+}
+footer>a{
+text-decoration: none;
+border-radius: 0;
+}
+ @media screen and (min-width: 768px){
+    .slike{
+        grid-template-columns: repeat(3, 30%);
+    }
+    .first, .second{
+        width: 45%;
+    }
+     }

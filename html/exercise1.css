@@ -1,0 +1,30 @@
+div{
+    border: solid 2px;
+    background-color: white;
+}
+.prvi{
+position: absolute;
+width: 150px;
+height: 100px;
+}
+.drugi{
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    width: 130px;
+    height: 100px;
+}
+.treci{
+    position: absolute;
+    top: 150px;
+    left: 2px;
+    width: 330px;
+    height: 100px; 
+}
+.cetvrti{
+    position: absolute;
+    top: 0;
+    left: 320px;
+    width: 70px;
+    height: 220px;
+}

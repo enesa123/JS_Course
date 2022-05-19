@@ -1,0 +1,30 @@
+.prvi{
+    width: 800px;
+    height: 150px;
+    border: solid 2px;
+    position: relative;
+}
+#dalila{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border: solid 2px;
+    width: 45%;
+    height: 50%;
+}
+#enesa{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    border: solid 2px;
+    height: 15%;
+    width: 20%;
+}
+#selma{
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    border: solid 2px;
+    width: 60%;
+    height: 15%;
+}

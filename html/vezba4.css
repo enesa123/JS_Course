@@ -1,0 +1,45 @@
+body{
+background-image: linear-gradient(pink, purple);
+padding: 30px 20px;
+}
+header>div{
+    background-color: yellow;
+    font-weight: bold;
+    height: 40px;
+    width: 19%;
+    text-align:center;
+    font-family: fantasy;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.reklama{
+    margin-top: 30px;
+    display: flex;
+}
+.cene>div{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 215px;
+    margin-left: 15px;
+    justify-content: center;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+span{
+    font-size: 80;
+    font-weight: lighter;
+}
+.nalepnice>div{
+    background-color: white;
+    width: 24%;
+    height: 200px;
+}
+.nalepnice{
+    display: flex;
+    justify-content: space-between;
+}

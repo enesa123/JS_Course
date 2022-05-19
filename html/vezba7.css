@@ -1,0 +1,25 @@
+.gr{
+    background-color: rgb(119, 119, 240);
+    display: grid;
+    grid-template-rows: 3;
+    gap: 10px;
+}
+.prvi{
+    grid-row: 1/2;
+    width: 100%;
+}
+.drugi{
+    grid-row: 2/4;
+}
+.treci{
+    grid-row: 2/3;
+}
+.cetvrti{
+    grid-row: 2/3;
+}
+.peti{
+    grid-row: 3/4;
+}
+.gr *{
+    background-color: blue;
+}

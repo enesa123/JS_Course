@@ -1,0 +1,18 @@
+.kutija{
+    background-color: rgb(125, 125, 239);
+    width: 40%;
+    aspect-ratio: 1/1;
+}
+.prvi{
+    display: flex;
+    justify-content: space-around;
+}
+.loptica{
+    width: 20%;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border-radius: 50%;
+    animation: lopte 3s;
+    animation: infinite;
+    animation-duration: 3s;
+}
